@@ -12,7 +12,7 @@
 
 ## The Ultimate Native Win32 PHP Orchestration Engine
 
-##### 🎯 Welcome to the official README and developer guide for **DC2PHP**—an ultra-fast, lightweight native Win32 execution bridge written entirely in pure C (C89/C99). If you are tired of bulky runtime dependencies, resource leaks, and bloated web server stacks just to run background PHP script pipelines, your search ends here. 
+##### 🎯 **DC2PHP**—an ultra-fast, lightweight native Win32 execution bridge written entirely in pure C (C89/C99). If you are tired of bulky runtime dependencies, resource leaks, and bloated web server stacks just to run background PHP script pipelines, your search ends here. 
 
 ---
 
