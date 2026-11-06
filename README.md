@@ -46,8 +46,9 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 
 # 🌈 DC2PHP 
 
-## - Native Win32 PHP8 Command line bridge Supervisor
+## - Win3/x64 PHP8 Command line exec connector
 
+### - Connects your executables to your PHP installation directly without a need for apache
 
 
 ## ⚡ Quickstart Commands
