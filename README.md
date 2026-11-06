@@ -14,7 +14,6 @@
 
 ##### 🎯 **DC2PHP**—an ultra-fast, lightweight native Win32 execution bridge written entirely in pure C (C89/C99). If you are tired of bulky runtime dependencies, resource leaks, and bloated web server stacks just to run background PHP script pipelines, your search ends here. 
 
----
 
 ## 💡 What Problem Does DC2PHP Solve?
 
@@ -31,7 +30,6 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 
 🛡️ It acts as a hardened binary supervisor, wrapping your PHP execution workflows inside a secure Win32 process model while handling pipe-based output redirection in real-time, parsing structured JSON configurations, and tracking usage hits via a persistent telemetry file (`metrics.json`).
 
----
 
 ## 🔥 Why Developers Want to Use It
 
@@ -44,8 +42,6 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 ![dc2](images/dc2rm.png)
 
 ###### *"<i>I am CVBGOD, and I have given it to you</i>!"*
-
-#
 
 # 🌈 DC2PHP — Native Win32 Execution Bridge & Pipeline Supervisor
 
