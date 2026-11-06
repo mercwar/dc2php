@@ -72,7 +72,6 @@ dc2php.exe -pass -v
 
 ## 🐘 PHP Background & Local Installation
 
-![dc2](images/dc2php.png)
 
 Because `dc2php` acts as an orchestration wrapper rather than an interpreter, it relies on an underlying PHP runtime to execute script targets.
 
@@ -117,6 +116,8 @@ Verify that your directory contains `main.c`, `build.bat`, `resource.rc`, and yo
 ---
 
 ## 🎮 Commanding dc2php
+
+![dc2](images/dc2php.png)
 
 Once compiled, `dc2php.exe` can be invoked directly from the command line. It initializes the `DX-TRACK` memory allocation registers, checks input flags, sets up pipe redirection, and handles process lifecycles cleanly.
 
