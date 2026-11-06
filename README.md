@@ -10,7 +10,7 @@
 
 # ⚡ DC2PHP: 
 
-## The Ultimate Native Win32 PHP Orchestration Engine 🚀
+## The Ultimate Native Win32 PHP Orchestration Engine
 
 Welcome to the official README and developer guide for **DC2PHP**—an ultra-fast, lightweight native Win32 execution bridge written entirely in pure C (C89/C99). If you are tired of bulky runtime dependencies, resource leaks, and bloated web server stacks just to run background PHP script pipelines, your search ends here. 🎯
 
@@ -25,7 +25,11 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 * 📂 **Fragmented working directory contexts** when called from external editors or desktop utilities.
 * 📈 **Lack of persistent metrics** and structured task tracking.
 
-**DC2PHP eliminates these headaches.** 🛡️ It acts as a hardened binary supervisor, wrapping your PHP execution workflows inside a secure Win32 process model while handling pipe-based output redirection in real-time, parsing structured JSON configurations, and tracking usage hits via a persistent telemetry file (`metrics.json`).
+**DC2PHP eliminates these headaches.** 
+
+####
+
+🛡️ It acts as a hardened binary supervisor, wrapping your PHP execution workflows inside a secure Win32 process model while handling pipe-based output redirection in real-time, parsing structured JSON configurations, and tracking usage hits via a persistent telemetry file (`metrics.json`).
 
 ---
 
