@@ -31,7 +31,7 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 🛡️ It acts as a hardened binary supervisor, wrapping your PHP execution workflows inside a secure Win32 process model while handling pipe-based output redirection in real-time, parsing structured JSON configurations, and tracking usage hits via a persistent telemetry file (`metrics.json`).
 
 - You can downlaod and install PHP FREE <a href="https://downloads.php.net/~windows/releases/archives/php-8.5.12-1-nts-Win32-vs17-x64.zip">HERE</a>!
-- 
+  
 ## 🔥 Why Developers Want to Use It
 
 * 🪶 **Zero-Dependency Footprint:** Written in pure native C using standard Win32 system APIs (`CreateProcessA`, anonymous pipes) without heavy frameworks.
@@ -178,6 +178,7 @@ Any top-level or embedded metadata fields—such as `"project"`, `"name"`, `"ver
 * 🔗 **Query String Parsing:** The wrapper automatically splits `?` query strings (e.g., `step=boot&mode=clean`), tokenizes the parameters, and forwards them into `php.exe` so scripts can read them natively via `$_GET` or CLI arguments.
 
 ---
+
 
 - You can downlaod and install PHP FREE <a href="https://downloads.php.net/~windows/releases/archives/php-8.5.12-1-nts-Win32-vs17-x64.zip">HERE</a>!
 
