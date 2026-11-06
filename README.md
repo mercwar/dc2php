@@ -46,7 +46,6 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 # 🌈 DC2PHP — Native Win32 Execution Bridge & Pipeline Supervisor
 
 
----
 
 ## ⚡ Quickstart Commands
 
