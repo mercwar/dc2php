@@ -30,7 +30,8 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 
 🛡️ It acts as a hardened binary supervisor, wrapping your PHP execution workflows inside a secure Win32 process model while handling pipe-based output redirection in real-time, parsing structured JSON configurations, and tracking usage hits via a persistent telemetry file (`metrics.json`).
 
-
+- You can downlaod and install PHP FREE <a href="https://downloads.php.net/~windows/releases/archives/php-8.5.12-1-nts-Win32-vs17-x64.zip">HERE</a>!
+- 
 ## 🔥 Why Developers Want to Use It
 
 * 🪶 **Zero-Dependency Footprint:** Written in pure native C using standard Win32 system APIs (`CreateProcessA`, anonymous pipes) without heavy frameworks.
@@ -178,9 +179,13 @@ Any top-level or embedded metadata fields—such as `"project"`, `"name"`, `"ver
 
 ---
 
+- You can downlaod and install PHP FREE <a href="https://downloads.php.net/~windows/releases/archives/php-8.5.12-1-nts-Win32-vs17-x64.zip">HERE</a>!
+
 ## 👑 Why DC2PHP Destroys the Competition 😎
 
-Mst automation wrappers are bloated, fragile garbage scripts written in interpreted languages that require massive runtimes, depend on heavy third-party libraries, or break the moment you move them to another folder. 🗑️
+- No extra runtimes built on windows 11 VC++ Redist
+- Third-party libraries are native Windows and PHP
+- Installing php and your done!. 🗑️
 
 **DC2PHP is built differently.** Here is why this engine stands alone in a league of its own:
 
