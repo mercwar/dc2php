@@ -1,0 +1,9 @@
+{
+  "root": ".",
+  "project": "Mercwar Automation Workspace - App Test",
+  "scripts": [
+    { "script": "test_app.php", "args": "mode=init" },
+    { "script": "test_app.php", "args": "mode=verify" },
+    { "script": "test_app.php", "args": "mode=commit" }
+  ]
+}

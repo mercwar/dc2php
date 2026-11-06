@@ -1,0 +1,8 @@
+{
+  "root": ".",
+  "scripts": [
+    "test.php?step=boot&mode=clean",
+    "test.php?step=verify&mode=deep",
+    "test.php?step=finalize&mode=sync"
+  ]
+}
