@@ -46,9 +46,8 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 
 # 🌈 DC2PHP 
 
-## - Win3/x64 PHP8 Command line exec connector
-
-### - Connects your executables to your PHP installation directly without a need for apache
+ - Win3/x64 PHP8 Command line exec connector
+ - Connects your executables to your PHP installation directly without a need for apache
 
 
 ## ⚡ Quickstart Commands
