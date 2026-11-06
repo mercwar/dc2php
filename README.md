@@ -49,30 +49,6 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 
 # 🌈 DC2PHP — Native Win32 Execution Bridge & Pipeline Supervisor
 
-Welcome to the official **DC2PHP** reference documentation! 🎯 **`dc2php`** is an ultra-fast, lightweight native Win32 execution bridge written entirely in pure C (C89/C99). It acts as a specialized, low-level orchestration layer designed to coordinate, automate, and monitor background PHP script pipelines with **zero third-party dependencies** and **minimal system overhead**.
-
----
-
-## 💡 What Problem Does DC2PHP Solve?
-
-When building automated system tools 🛠️, telemetry aggregators 📊, or localized background workers 🤖, developers often need a clean way to execute and chain scripts without bulky runtime dependencies or complex web server stacks (like Apache or IIS). Running raw command-line PHP scripts manually or through poorly managed shell scripts often leads to:
-
-* 🧟 **Unmanaged background processes** lingering in memory.
-* 🕳️ **Lost standard output (`stdout`) streams** and hard-to-debug failures.
-* 📂 **Fragmented working directory contexts** when called from external editors or desktop utilities.
-* 📈 **Lack of persistent metrics** and structured task tracking.
-
-`dc2php` eliminates these headaches by acting as a **hardened binary supervisor** 🛡️. It wraps your PHP execution workflows inside a secure Win32 process model, handles pipe-based output redirection in real time, parses structured JSON configuration files, and tracks usage hits via a persistent telemetry file (`metrics.json`).
-
----
-
-## 🔥 Why Developers Want to Use It
-
-* 🪶 **Zero-Dependency Footprint:** Written in pure native C using standard Win32 system APIs (`CreateProcessA`, anonymous pipes) without heavy frameworks.
-* 📌 **Autonomous Directory Rooting:** Automatically locks its working context to the binary's actual location via `GetModuleFileNameA` and `SetCurrentDirectoryA`, ensuring absolute path stability even when invoked from Notepad, desktop shortcuts, or external tools.
-* 🧩 **Structured JSON Pipeline Orchestration:** Easily group script tasks together using JSON configurations while safely bypassing embedded metadata (like project names or version numbers).
-* ⚙️ **Native Query String Tokenization:** Automatically parses query parameters attached to script paths (e.g., `test.php?step=boot&mode=clean`) and tokenizes them into CLI-friendly arguments that populate `$_GET` and `$argv` natively.
-* 🛡️ **Integrated Memory Protection:** Bundled with the custom `DX-TRACK` allocation engine to ensure zero-leak handle and memory management during intense execution cycles.
 
 ---
 
