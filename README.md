@@ -41,7 +41,11 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 * ⚙️ **Native Query String Tokenization:** Automatically parses query parameters attached to script paths (e.g., `test.php?step=boot&mode=clean`) and tokenizes them into CLI-friendly arguments that populate `$_GET` and `$argv` natively.
 * 🛡️ **Integrated Memory Protection:** Bundled with the custom `DX-TRACK` allocation engine to ensure zero-leak handle and memory management during intense execution cycles.
 
-![dc2](images/dc2php.png)
+![dc2](images/dc2rm.png)
+
+###### *"<i>I am CVBGOD, and I have given it to you</i>!"*
+
+#
 
 # 🌈 DC2PHP — Native Win32 Execution Bridge & Pipeline Supervisor
 
@@ -91,6 +95,8 @@ dc2php.exe -pass -v
 ---
 
 ## 🐘 PHP Background & Local Installation
+
+![dc2](images/dc2php.png)
 
 Because `dc2php` acts as an orchestration wrapper rather than an interpreter, it relies on an underlying PHP runtime to execute script targets.
 
