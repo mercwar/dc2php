@@ -54,17 +54,57 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 
 If you want to dive straight into execution without reading the full technical breakdown, here are the most common commands:
 
-```dos
-:: ❓ Display the built-in usage manual reference
+# 🧪 `dc2php.exe` Wrapper Verification Suite
+
+Use this comprehensive test suite to verify your upgraded `dc2php.exe` wrapper—covering help output formatting, raw inline PHP execution (`-eval`), JSON batch task parsing, and CLI passthrough.
+
+---
+
+### 1️⃣ Test 1: Help Reference Output (`-h`)
+**Goal:** Verify complete stream flushing.  
+Run this from your console or test wrapper to confirm the usage manual prints completely without truncation:
+```cmd
 dc2php.exe -h
-
-:: 📋 Execute a structured JSON pipeline workflow
-dc2php.exe -json tests.json
-
-:: 🔀 Directly pass arguments through to the underlying PHP engine
-dc2php.exe -pass -v
-
 ```
+
+---
+
+### 2️⃣ Test 2: Raw Inline PHP Evaluation (`-eval`)
+**Goal:** Verify the raw PHP execution engine.  
+Run an inline command to confirm that string output streams back cleanly into your telemetry buffer:
+```cmd
+dc2php.exe -eval "echo 'DC2PHP Raw Engine Active: ' . phpversion();"
+```
+
+---
+
+### 3️⃣ Test 3: JSON Pipeline Task Sequence (`-json`)
+**Goal:** Verify recursive path parsing and argument tokenization.
+
+1. Create a test configuration file named `test_pipeline.json` in your workspace:
+```json
+{
+  "root": "./",
+  "pipeline": [
+    "script.php?step=boot&mode=clean"
+  ]
+}
+```
+
+2. Execute the configuration file via your wrapper:
+```cmd
+dc2php.exe -json test_pipeline.json
+```
+
+---
+
+### 4️⃣ Test 4: Direct CLI Passthrough (`-pass`)
+**Goal:** Verify arbitrary flag forwarding.  
+Confirm that flags pass straight through to the underlying `php.exe` runtime:
+```cmd
+dc2php.exe -pass -v
+```
+
 
 ---
 
