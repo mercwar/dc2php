@@ -54,7 +54,7 @@ When building automated system tools 🛠️, telemetry aggregators 📊, or loc
 
 If you want to dive straight into execution without reading the full technical breakdown, here are the most common commands:
 
-# 🧪 `dc2php.exe` Wrapper Verification Suite
+### 🧪 `dc2php.exe` Wrapper Verification Suite
 
 Use this comprehensive test suite to verify your upgraded `dc2php.exe` wrapper—covering help output formatting, raw inline PHP execution (`-eval`), JSON batch task parsing, and CLI passthrough.
 
