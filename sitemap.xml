@@ -10,6 +10,9 @@
     <loc>https://github.com/mercwar/dc2php/blob/main/build.bat</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/dc2php/blob/main/_config.yml</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/dc2php/blob/main/source/dc2jet.c</loc>
   </url>
   <url>
@@ -62,6 +65,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/dc2php/blob/main/test_app.php</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/dc2php/blob/main/.gitmodules</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/dc2php/blob/main/test.json</loc>
